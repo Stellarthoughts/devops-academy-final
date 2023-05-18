@@ -51,4 +51,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-final-${{ matrix.image }}:${{ env.TAG }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-final:${{ env.TAG }}
