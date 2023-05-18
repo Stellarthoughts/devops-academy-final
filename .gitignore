@@ -3,3 +3,4 @@
 /venv/
 /ve/
 /staticfiles
+**/*/__pycache__
