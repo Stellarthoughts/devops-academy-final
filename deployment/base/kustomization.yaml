@@ -4,7 +4,7 @@ kind: Kustomization
 images:
   - name: webimage
     newName: astrasource/devops-final
-    newTag: v0.0.3
+    newTag: main
 
 resources:
   - "deployment-db.yaml"
