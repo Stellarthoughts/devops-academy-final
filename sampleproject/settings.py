@@ -30,7 +30,7 @@ if 'SECRET_KEY' in os.environ:
     SECRET_KEY = os.environ["SECRET_KEY"]
 
 ALLOWED_HOSTS = ['db', '198.211.99.20', '192.168.49.2', 'localhost', 'pmironenko.dacdevops.ru', '127.0.0.1']
-DEBUG = False
+DEBUG = True
 
 # Application definition
 
