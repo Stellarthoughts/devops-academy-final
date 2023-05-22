@@ -15,7 +15,7 @@ spec:
               service:
                 name: app-service
                 port:
-                  number: 8000
+                  name: web
   tls:
     - hosts:
         - pmironenko.dacdevops.ru

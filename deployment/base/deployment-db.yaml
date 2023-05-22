@@ -19,6 +19,8 @@ spec:
         - name: postgres-container
           image: postgres
           envFrom:
+            - configMapRef:
+                name: app-config
             - secretRef:
                 name: app-secret
           resources:
