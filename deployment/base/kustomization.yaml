@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+images:
+  - name: webimage
+    newName: astrasource/devops-final
+    newTag: dev
+
+resources:
+  - "deployment-db.yaml"
+  - "deployment-server.yaml"
+  - "namespace.yaml"
+  - "service.yaml"
+  - "bd-service.yaml"
+  - "configmap.yaml"
+  - "secret.yaml"
+
+namespace: pmironenko
