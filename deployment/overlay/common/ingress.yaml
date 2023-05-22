@@ -19,4 +19,4 @@ spec:
   tls:
     - hosts:
         - pmironenko.dacdevops.ru
-      secretName: pmironenko
+      secretName: pmironenko-certificate
