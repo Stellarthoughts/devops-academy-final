@@ -4,7 +4,7 @@ metadata:
   name: argocd-pmironenko-ceritifcate
 spec:
   dnsNames:
-    - "pmironenko.dacdevops.ru"
+    - pmironenko.dacdevops.ru
   issuerRef:
     kind: ClusterIssuer
     name: yc-clusterissuer
