@@ -6,4 +6,4 @@ data:
   DEBUG: "False"
   POSTGRES_DB: "web"
   POSTGRES_PORT: "5432"
-  POSTGRES_HOST: "app-service.pmironenko.svc.cluster.local"
+  POSTGRES_HOST: "db-service.pmironenko.svc.cluster.local"

@@ -7,10 +7,11 @@ images:
     newTag: v0.0.5
 
 resources:
-  - "deployment-db.yaml"
-  - "deployment-server.yaml"
+  - "db-deployment.yaml"
+  - "db-service.yaml"
+  - "app-deployment.yaml"
+  - "app-service.yaml"
   - "namespace.yaml"
-  - "service.yaml"
   - "configmap.yaml"
   - "secret.yaml"
 

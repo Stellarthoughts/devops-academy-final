@@ -4,13 +4,9 @@ metadata:
   name: app-service
 spec:
   selector:
-    app: pmironenko-app
+    deployment: web-server
   ports:
     - name: web
       port: 8000
       targetPort: 8000
-    - name: db
-      port: 5432
-      protocol: TCP
-      targetPort: 5432
   type: ClusterIP
