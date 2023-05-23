@@ -9,8 +9,8 @@ images:
 resources:
   - "db-deployment.yaml"
   - "db-service.yaml"
-  - "app-deployment.yaml"
-  - "app-service.yaml"
+  - "web-deployment.yaml"
+  - "web-service.yaml"
   - "namespace.yaml"
   - "configmap.yaml"
   - "secret.yaml"
